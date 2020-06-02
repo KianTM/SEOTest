@@ -1,0 +1,13 @@
+@media (max-width: 800px) {
+    #top {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        img {
+            width: 100%;
+        }
+        #textbox {
+            margin: 0;
+            margin-bottom: 20px;
+        }
+    }
+}

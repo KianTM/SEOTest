@@ -1,0 +1,108 @@
+@import "normalize", "variables", "1000pxQuery", "800pxQuery", "600pxQuery";
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 10px;;
+    text-transform: uppercase;
+    background: $primaryColor;
+    text-align: center;
+    font-family: $primaryText;
+    color: white;
+    h1 {
+        font-weight: normal;
+        font-size: 2em;
+        margin: 0;
+    }
+    nav ul {
+        background: $secondaryColor;
+        border-top: 3px solid $accentColor;
+        border-bottom: 3px solid $accentColor;
+        display: flex;
+        justify-content: space-evenly;
+        li {
+            list-style: none;
+            flex-grow: 1;
+        }
+        a{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: block;
+            font-size: 0.9em;
+            color: white;
+        }
+    }
+}
+
+main {
+    margin: 1%;
+    color: white;
+}
+
+#top {
+    display: flex;
+    p {
+        margin: 0;
+        padding: 10px;
+    }
+    #textbox {
+        font-family: $primaryText;
+        margin-left: 2%;
+        border: $accentColor solid 1px;
+    }
+    img {
+        flex-shrink: 0;
+        flex-grow: 1;
+        width: 72.5%;
+    }
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    article {
+        border: $accentColor solid 1px;
+        width: 23%;
+        background: $primaryColor;
+        h2 {
+            margin: 0;
+            padding: 5px 0;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: normal;
+            font-family: $primaryText;
+            color: #ccc;
+        }
+        img {
+            width: 100%;
+        }
+        p{
+            font-size: 1em;
+            margin: 0;
+            padding: 5px;
+            text-align: center;
+            font-family: $primaryText;
+        }
+    }
+}
+
+footer {
+    background: $secondaryColor;
+    border-top: $accentColor solid 3px;
+    border-bottom: $accentColor solid 3px;
+    h3 {
+        font-size: 1rem;
+        margin: 5px 0;
+        text-align: center;
+    }
+}

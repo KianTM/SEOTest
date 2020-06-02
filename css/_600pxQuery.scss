@@ -1,0 +1,12 @@
+@media (max-width: 600px) {
+    .wrapper {
+        width: 100%;
+    }
+    #bottom {
+        flex-wrap: wrap;
+        justify-content: 0;
+        article {
+            width: 50%;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@media (max-width: 1000px) {
+    .wrapper {
+        width: 90%;
+    }
+    nav ul {
+        justify-content: 0;
+        flex-wrap: wrap;
+        li {
+            width: 25%;
+        }
+    }
+}
